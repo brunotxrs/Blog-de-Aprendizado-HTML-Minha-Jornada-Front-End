@@ -1,0 +1,53 @@
+header {
+    max-height: 9.0625rem;
+    width: 100vw;
+    margin-bottom: 0.3125rem;
+
+    .blog {
+        text-align: center;
+        font-family: var(--font-blog);
+        letter-spacing: 0.125rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+        line-height: 120%;
+    }
+
+}
+
+@media screen and (min-width: 48rem) and (max-width: 64.0625rem) {
+    header {
+        
+        max-height: 9.0625rem;
+        width: 100vw;
+        margin-bottom: 0.3125rem;
+
+        .blog {
+            max-width:  43.75rem;
+            text-align: center;
+            font-family: var(--font-blog);
+            letter-spacing: 0.125rem;
+            padding: 0.5rem;
+            font-size: 2.2rem;
+            margin: auto;
+        }
+    }
+}
+
+@media screen and (min-width: 64.125rem) {
+    header {
+        
+        max-height: 9.0625rem;
+        width: 100vw;
+        margin-bottom: 0.3125rem;
+
+        .blog {
+            max-width:  43.75rem;
+            text-align: center;
+            font-family: var(--font-blog);
+            letter-spacing: 0.125rem;
+            padding: 0.5rem;
+            font-size: 2.5rem;
+            margin: auto;
+        }
+    }
+}

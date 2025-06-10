@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: "Blog";
+  src: url('../assets/font/OPTIEngraversOldEnglish.otf') format('opentype');
+  font-weight: normal;
+
+}
+
+:root {
+    --font-blog: "Blog";
+
+    --font-first: "Source Serif 4", serif;
+    --color-paragraph: #5A5A5A;
+
+    --font-second: "Libre Franklin", sans-serif;
+    --color-first: #121212;
+
+    --line-height-subtitle: 112%;
+    --font-weight-subtitle: 700;
+    --font-size-subtitle: 1.875rem;
+
+    --font-size-paragraph: 1rem;
+    --letter-spacing-paragraph: normal;
+    --line-height-paragraph: 1.375rem;
+
+}
+
+body {
+    background-color: #FFF;
+}
+
+
+
+a {
+    color: var(--color-first);
+    font-family: var(--font-second);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p {
+    font-family: var(--font-first);
+    color: var(--color-paragraph);
+    font-size: var(--font-size-paragraph);
+    letter-spacing: var(--letter-spacing-paragraph);
+    line-height: var(--line-height-paragraph);
+}
+
+
+h2 {
+    color: var(--color-first);
+    font-family: var(--font-first);
+    font-weight: var(--font-weight-subtitle);
+    line-height: var(--line-height-subtitle);
+    font-size: var(--font-size-subtitle);
+}

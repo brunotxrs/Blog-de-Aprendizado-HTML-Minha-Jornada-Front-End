@@ -1,0 +1,270 @@
+.sections {
+    padding: 0.625rem 1.875rem;
+
+    h2, h3 {
+        margin: 0 0 0.625rem;
+    }
+
+    div{
+        
+        max-height: 18.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        p {
+            text-align: justify;
+            text-indent: 1.25rem;
+        }
+
+        img {
+            width: 6.25rem;
+            margin: auto;
+            padding: 0.3125rem 0;
+        }
+
+    }
+
+    h3 {
+        font-family: var(--font-second);
+        font-weight: var(--font-weight-subtitle);
+        margin: 1.25rem 0;
+    }
+    
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+
+
+        li > strong {
+            display: block;
+            font-family: var(--font-second);
+            margin: 0.3125rem 0;
+        }
+
+        li > span {
+            font-family: var(--font-first);
+            color: var(--color-paragraph);
+                        
+        }
+
+        code {
+            background-color: var(--color-paragraph);
+            color: var(--color-white);
+            padding: 0.0625rem 0.1875rem;
+            border-radius: 0.25rem;
+        }
+
+        li > ul > li {
+            padding: 0.625rem 0 0 0.625rem;
+            strong {
+                border-bottom: 0.0625rem dotted;
+                display: inline;
+            }
+            
+        }
+    }
+
+
+    aside {
+        margin-bottom: 1.25rem;
+        padding: 0.625rem 0;
+        font-family: var(--font-first);
+        color: var(--color-paragraph);
+        font-weight: var(--font-weight-subtitle);
+
+        strong {
+            font-family: var(--font-second);
+            color: var(--color-first);
+        }
+    }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 64.0625rem){
+    .sections {
+        padding: 0.625rem 1.875rem;
+
+        h2, h3 {
+            margin: 0 0 0.625rem;
+        }
+
+        div{
+            
+            max-height: 18.125rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+
+            p {
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                text-indent: 1.25rem;
+                margin-bottom: 0.625rem;
+                max-height: 8.125rem;
+            }
+
+            img {
+                max-width: 10.25rem;
+                margin: auto;
+                padding: 0.3125rem 0;
+            }
+
+        }
+
+        h3 {
+            font-family: var(--font-second);
+            font-weight: var(--font-weight-subtitle);
+            margin: 1.25rem 0;
+        }
+        
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.625rem;
+
+
+            li > strong {
+                display: block;
+                font-family: var(--font-second);
+                margin: 0.3125rem 0;
+            }
+
+            li > span {
+                font-family: var(--font-first);
+                color: var(--color-paragraph);
+                            
+            }
+
+            code {
+                background-color: var(--color-paragraph);
+                color: var(--color-white);
+                padding: 0.0625rem 0.1875rem;
+                border-radius: 0.25rem;
+            }
+
+            li > ul > li {
+                padding: 0.625rem 0 0 0.625rem;
+                strong {
+                    border-bottom: 0.0625rem dotted;
+                    display: inline;
+                }
+                
+            }
+        }
+
+
+        aside {
+            margin-bottom: 1.25rem;
+            padding: 0.625rem 0;
+            font-family: var(--font-first);
+            color: var(--color-paragraph);
+            font-weight: var(--font-weight-subtitle);
+
+            strong {
+                font-family: var(--font-second);
+                color: var(--color-first);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 64.0625rem){
+        .sections {
+        padding: 0.625rem 1.875rem;
+        max-width: 64.0625rem;
+        margin: 0 auto 1.25rem;
+
+        h2, h3 {
+            margin: 0 0 0.625rem;
+        }
+
+        div{
+            
+            max-height: 18.125rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            position: relative;
+
+            p {
+                display: flex;
+                align-items: center;
+                text-align: justify;
+                text-indent: 1.25rem;
+                margin-bottom: 0.625rem;
+                max-height: 8.125rem;
+            }
+
+            img {
+                width: 10rem;
+                height: 9.6875rem;
+                margin: auto;
+                padding: 0.3125rem 0;
+                position: absolute;
+                right: -0.125rem;
+                top: -3.125rem;
+            }
+
+        }
+
+        h3 {
+            font-family: var(--font-second);
+            font-weight: var(--font-weight-subtitle);
+            margin: 1.25rem 0;
+        }
+        
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.625rem;
+
+
+            li > strong {
+                display: block;
+                font-family: var(--font-second);
+                margin: 0.3125rem 0;
+            }
+
+            li > span {
+                font-family: var(--font-first);
+                color: var(--color-paragraph);
+                            
+            }
+
+            code {
+                background-color: var(--color-paragraph);
+                color: var(--color-white);
+                padding: 0.0625rem 0.1875rem;
+                border-radius: 0.25rem;
+            }
+
+            li > ul > li {
+                padding: 0.625rem 0 0 0.625rem;
+                color: var(--color-paragraph);
+                strong {
+                    border-bottom: 0.0625rem dotted;
+                    display: inline;
+                }
+                
+            }
+        }
+
+
+        aside {
+            
+            padding: 0.625rem 0;
+            font-family: var(--font-first);
+            color: var(--color-paragraph);
+            font-weight: var(--font-weight-subtitle);
+            margin-bottom: 1.25rem;
+
+            strong {
+                font-family: var(--font-second);
+                color: var(--color-first);
+            }
+        }
+    }
+}

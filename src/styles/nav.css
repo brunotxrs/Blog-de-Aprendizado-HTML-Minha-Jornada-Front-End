@@ -1,0 +1,107 @@
+nav {
+    max-height: 25rem;
+
+    ul {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 100%;
+        padding: 0.625rem 1.875rem 1.875rem;
+        gap: 1.5625rem;
+        text-align: center;
+        align-items: center;
+
+        li{
+            max-width: 9.0625rem;
+            max-height: 7.5rem;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+
+            a {
+                max-height: 7.5rem;
+                text-align: center;
+                line-height: 135%;
+                
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 64.0625rem){
+    nav {
+        width: 100%;
+        max-height: 25rem;
+
+        ul {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100%;
+            padding: 0.625rem 0rem 1.875rem;
+            gap: 1.5625rem;
+            text-align: center;
+            align-items: center;
+
+            li{
+                max-width: 12.5rem;
+                max-height: 7.5rem;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin: auto;
+
+                a {
+                    max-height: 7.5rem;
+                    text-align: center;
+                    line-height: 135%;
+                    
+                }
+            }
+
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 64.0625rem){
+    nav {
+        width: 100%;
+        max-height: 25rem;
+
+        ul {
+            max-width: 77.1875rem;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100%;
+            padding: 1.25rem 1.875rem 1.875rem;
+            gap: 1.5625rem;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+
+            li{
+                max-width: 18.75rem;
+                max-height: 7.5rem;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin: auto;
+
+                a {
+                   
+                    text-align: center;
+                    line-height: 135%;
+                    
+                }
+
+                
+            }
+
+        }
+    }
+}

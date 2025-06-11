@@ -27,17 +27,19 @@
     --color-first: #121212;
 
     --line-height-subtitle: 112%;
-    --font-weight-subtitle: 700;
+    --font-weight-subtitle: 100;
     --font-size-subtitle: 1.875rem;
 
     --font-size-paragraph: 1rem;
     --letter-spacing-paragraph: normal;
     --line-height-paragraph: 1.375rem;
 
+    --color-white: #ffffff;
+
 }
 
 body {
-    background-color: #FFF;
+    background-color: var(--color-white);
 }
 
 
@@ -68,4 +70,9 @@ h2 {
     font-weight: var(--font-weight-subtitle);
     line-height: var(--line-height-subtitle);
     font-size: var(--font-size-subtitle);
+}
+
+
+li {
+    list-style: none;
 }

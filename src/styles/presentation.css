@@ -1,0 +1,46 @@
+.presentation{
+    padding: 0.625rem 1.875rem;
+    
+    p{
+        text-indent: 1.25rem;
+        text-align: justify;
+        margin-bottom: 0.625rem;
+    }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 64.0625rem){
+    .presentation{
+
+        max-height: 12.5rem;
+        padding: 0.625rem 1.875rem;
+        margin-bottom: 1.25rem;
+        
+        p{
+            column-count: 2;
+            column-rule: 0.0625rem solid;
+            column-gap: 1.875rem;
+            text-indent: 1rem;
+            text-align: justify;
+            margin: 0 auto 1rem;
+        }
+    }
+}
+
+@media screen and (min-width: 64.0625rem){
+    .presentation{
+        max-width: 64.0625rem;
+        max-height: 12.5rem;
+        padding: 0.625rem 1.875rem;
+        margin: 0 auto 1.25rem;
+        
+        p{
+            column-count: 2;
+            column-rule: 0.0625rem solid;
+            column-gap: 1.875rem;
+            text-indent: 1rem;
+            text-align: justify;
+            margin: 0 auto 1rem;
+        }
+
+    }   
+}

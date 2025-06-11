@@ -33,13 +33,17 @@
             <hr>
         </section>
 
-        <section>
+        <section class="sections">
             <h2 id="1" >
                 1. Introdução ao HTML na Prática: Os Primeiros Passos na Web
             </h2>
-            <p>
-                Revisitei os pilares essenciais do HTML (HyperText Markup Language), compreendendo-o não como uma linguagem de programação, mas como a linguagem de marcação que estrutura e organiza o conteúdo de toda a web. Esta etapa foi crucial para reafirmar a importância de uma base sólida e da atenção aos detalhes desde o início.
-            </p>
+            <div>
+                <p>
+                    Revisitei os pilares essenciais do HTML (HyperText Markup Language), compreendendo-o não como uma linguagem de programação, mas como a linguagem de marcação que estrutura e organiza o conteúdo de toda a web. Esta etapa foi crucial para reafirmar a importância de uma base sólida e da atenção aos detalhes desde o início.
+                </p>
+                
+                <img src="https://img.icons8.com/?size=100&id=23028&format=png&color=000000" alt="html">
+            </div>
 
             <h3>O que Consolidei:</h3>
 
@@ -76,16 +80,17 @@
                 </li>
 
                 <li>
-                    <strong>Comentários em HTML (&lt;!-- --&gt;):</strong>
+                    <strong>Comentários em HTML (<code>&lt;!-- --&gt;</code>):</strong>
                     <span>Uma ferramenta valiosa para documentar o código, adicionar anotações para a equipe ou para revisões futuras, sem impactar a renderização da página. Fundamental para a manutenibilidade do código.</span>
                 </li>
             </ul>
 
             <aside><strong>Minha Percepção:</strong> Revisitar a introdução ao HTML me permitiu reafirmar os pilares do HTML e como a estruturação correta impacta diretamente a performance, a acessibilidade e a manutenibilidade de aplicações web. A prática de construir e otimizar pequenos fragmentos HTML me reforçou o quão vital é a precisão e a aderência às melhores práticas desde o início de qualquer projeto.</aside>
              
+            <hr>
         </section>
 
-        <section>
+        <section class="sections">
             <h2 id="2">2. Trabalhando com Formulários em HTML: Desenvolvendo Interatividade Robusta</h2>
 
             <p>Após consolidar a estrutura de conteúdo, o foco se voltou para a criação de pontos de interação com o usuário através de formulários. Esta etapa foi essencial para entender como coletar dados de forma eficiente e segura.</p>
@@ -131,9 +136,10 @@
             <aside>
                 <strong>Minha Percepção: </strong>Formulários são a ponte vital entre o usuário e a aplicação. Compreender em profundidade como eles funcionam e a importância de cada atributo é crucial para criar interfaces interativas e seguras. A atenção à acessibilidade, especialmente com a tag <code>&lt;label&gt;</code>, reforça a ideia de que um bom desenvolvedor projeta para todos os usuários, desde o conceito.
             </aside>
+            <hr>
         </section>
 
-        <section>
+        <section class="sections">
             <h2 id="3">
                 3. Estruturando seu HTML + Formatações: Organização, Semântica e Controle Visual Básico
             </h2>
@@ -182,6 +188,53 @@
                 <strong>Minha Percepção: </strong>
                 Esta fase me permitiu solidificar a compreensão de que o HTML vai além da simples exibição de texto; ele é a base para a organização e hierarquia do conteúdo. Mesmo sem CSS, o HTML já nos fornece ferramentas para estruturar e dar um significado inicial ao conteúdo. A transição para uma mentalidade semântica e a utilização consciente de <code>&lt;div&gt;</code> e <code>&lt;span&gt;</code> são cruciais para a construção de um código limpo e escalável.
             </aside>
+            <hr>
+        </section>
+
+        <section class="sections">
+            <h2 id="4">4. Trabalhando com Mídias utilizando HTML: Enriquecendo a Experiência do Usuário</h2>
+
+            <p>Um site moderno vai muito além de texto puro. Nesta etapa, aprofundei as técnicas para incorporar diferentes tipos de mídia, visando tornar as páginas mais dinâmicas, interativas e visualmente atraentes.</p>
+
+            <h3>O que Consolidei:</h3>
+
+            <ul>
+                <li>
+                    <strong>Imagens (<code>&lt;img&gt;</code>): Otimização e Acessibilidade: </strong><span>Revisitei o uso da tag <code>&lt;img src="" alt=""&gt;</code>, explorando atributos avançados e boas práticas:</span>
+
+                    <ul>
+                        <li><code>width</code> e <code>height</code>: Embora controláveis por CSS para responsividade, são úteis para evitar reflows de layout iniciais.</li>
+                        <li><code>title</code>: Para fornecer informações adicionais ao passar o mouse.</li>
+                        <li>Prioridade ao <code>alt</code>: Reforcei que o atributo <code>alt</code> é indispensável não apenas para acessibilidade (leitores de tela), mas também para SEO e para o cenário de falha no carregamento da imagem.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Áudio (<code>&lt;audio&gt;</code>): Implementação Flexível: </strong><span>Como embutir arquivos de áudio diretamente na página, garantindo compatibilidade e controle.</span>
+
+                    <ul>
+                        <li>Atributos cruciais: <code>src</code> (caminho do arquivo), <code>controls</code> (exibe os controles padrão do navegador), <code>autoplay</code> (deve ser usado com muita cautela devido à experiência do usuário), <code>loop</code> (para repetição).</li>
+                        <li><code>&lt;source&gt;</code>: Essencial para fornecer múltiplos formatos (MP3, OGG, WAV), assegurando que o áudio seja reproduzido na maioria dos navegadores.</li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <strong>Vídeo (<code>&lt;video&gt;</code>): Experiência Visual Interativa: </strong><span>Similar ao áudio, para incorporar vídeos de forma nativa e eficiente.</span>
+
+                    <ul>
+                        <li>Atributos importantes: <code>src</code>, <code>controls</code>, <code>autoplay</code>, <code>loop</code>, e poster (imagem de capa exibida antes do vídeo carregar ou enquanto está pausado, melhorando a percepção visual).</li>
+                        <li><code>&lt;source&gt;</code>: Para múltiplos formatos de vídeo (MP4, WebM, OGG), garantindo a compatibilidade.</li>
+                    </ul>
+                </li>
+                
+                <li><strong>Iframes (<code>&lt;iframe&gt;</code>): Incorporação de Conteúdo Externo: </strong><span>Aprofundei o uso de iframes para incorporar conteúdo de outras fontes (como vídeos do YouTube, mapas do Google, widgets de redes sociais). Entendi a importância de gerenciar a segurança (sandbox), a performance e a origem do conteúdo para evitar vulnerabilidades e garantir uma boa experiência.</span></li>
+            </ul>
+
+            <aside>
+                <strong>Minha Percepção: </strong>A habilidade de integrar e otimizar diferentes mídias é vital para criar experiências ricas na web. Compreender os atributos de controle, a importância dos múltiplos formatos para compatibilidade e, principalmente, as implicações de performance e segurança dos iframes, é fundamental para construir aplicações web robustas e performáticas.
+            </aside>
+
+            <hr>
         </section>
 
 

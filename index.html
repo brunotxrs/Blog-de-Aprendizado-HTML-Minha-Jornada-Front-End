@@ -42,7 +42,7 @@
                     Revisitei os pilares essenciais do HTML (HyperText Markup Language), compreendendo-o não como uma linguagem de programação, mas como a linguagem de marcação que estrutura e organiza o conteúdo de toda a web. Esta etapa foi crucial para reafirmar a importância de uma base sólida e da atenção aos detalhes desde o início.
                 </p>
                 
-                <img src="https://img.icons8.com/?size=100&id=23028&format=png&color=000000" alt="html">
+                <img src="https://img.icons8.com/?size=100&id=23028&format=png&color=000000" alt="html" title="HTML 5">
             </div>
 
             <h3>O que Consolidei:</h3>
@@ -236,9 +236,162 @@
 
             <hr>
         </section>
+        
+        <section class="sections">
+            <h2 id="5">5. Criando Tabelas com HTML: Organizando Dados Estruturados</h2>
 
+            <div>
+                <p>Tabelas em HTML são uma ferramenta poderosa e semântica para exibir dados tabulares de forma clara e organizada. Nesta etapa, consolidei as melhores práticas para construir tabelas eficazes e acessíveis.</p>
+
+                <img src="https://img.icons8.com/?size=100&id=8174&format=png&color=000000" alt="Tabela" title="Tabela">
+            </div>
+
+            <h3>O que Consolidei:</h3>
+
+            <ul>
+                <li>
+                    <strong>Estrutura Semântica da Tabela: </strong><span>Aprofundei o uso das tags que definem a estrutura lógica de uma tabela:</span>
+
+                    <ul>
+                        <li>
+                            <code>&lt;table&gt;</code>: O contêiner principal da tabela.
+                        </li>
+                        <li>
+                            <code>&lt;thead&gt;</code>: Agrupa as linhas do cabeçalho da tabela, distinguindo-as do corpo.
+                        </li>
+                        <li>
+                            <code>&lt;tbody&gt;</code>: Agrupa as linhas do corpo da tabela, onde os dados principais residem.
+                        </li>
+                        <li>
+                            <code>&lt;tfoot&gt;</code>: Agrupa as linhas do rodapé da tabela, ideal para totais ou resumos (menos comum, mas importante para dados financeiros, por exemplo).
+                        </li>
+                        <li>
+                            <code>&lt;tr&gt;</code> (Table Row): Define uma linha completa dentro da tabela.
+                        </li>
+                        <li>
+                            <code>&lt;th&gt;</code> (Table Header): Define uma célula de cabeçalho. Semanticamente, indica que a célula é um cabeçalho para uma coluna ou linha.
+                        </li>
+                        <li>
+                            <code>&lt;td&gt;</code> (Table Data): Define uma célula de dados comum.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Atributos para Flexibilidade de Layout: </strong>
+
+                    <ul>
+                        <li><code>colspan</code>: Permite que uma célula ocupe a extensão de múltiplas colunas, útil para títulos que abrangem várias categorias.</li>
+                        <li><code>rowspan</code>: Permite que uma célula ocupe a extensão de múltiplas linhas, útil para dados repetidos verticalmente.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Caption (<code>&lt;caption&gt;</code>): Contexto e Acessibilidade: </strong><span>A importância de adicionar um título descritivo à tabela, usando a tag <code>&lt;caption&gt;</code>. Isso melhora significativamente a acessibilidade e o contexto para leitores de tela e para o entendimento geral do conteúdo.</span>
+                </li>
+            </ul>
+
+            <aside>
+                <strong>Minha Percepção:</strong> O uso de tabelas é crucial para dados estruturados, como relatórios, calendários ou informações financeiras. Entender a diferença semântica entre <code>&lt;th&gt;</code> e <code>&lt;td&gt;</code>, e dominar <code>colspan</code> e <code>rowspan</code>, confere a flexibilidade necessária para construir tabelas complexas, mas é vital lembrar que tabelas devem ser usadas apenas para dados tabulares, e não para layout de página, função que pertence ao CSS.
+            </aside>
+            <hr>
+        </section>
+
+        <section class="sections">
+            <h2 id="6">6. Entendendo HTML Semântico: Construindo Significado e Robustez</h2>
+
+            <p>Esta foi, sem dúvida, a etapa mais transformadora para aprofundar meu conhecimento em HTML. O foco mudou de "como usar as tags" para "qual tag usar para expressar o significado correto do conteúdo". O HTML Semântico é a espinha dorsal de um desenvolvimento web de qualidade.</p>
+
+            <h3>O que Consolidei:</h3>
+
+            <ul>
+                <li>
+                    <strong>O Que é HTML Semântico: </strong><span>É o uso de tags HTML que carregam um significado intrínseco e descrevem o tipo de conteúdo que elas envolvem. Por exemplo, usar <code>&lt;header&gt;</code> para o cabeçalho do site, <code>&lt;nav&gt;</code> para navegação, <code>&lt;article&gt;</code> para um conteúdo independente, <code>&lt;section&gt;</code> para agrupar conteúdo temático, etc. Vai além da aparência, focando no significado estrutural.</span>
+                </li>
+
+                <li>
+                    <strong>Benefícios Estratégicos do HTML Semântico: </strong>
+                    <ul>
+                        <li><strong>Acessibilidade:</strong> Essencial para usuários com deficiência, pois leitores de tela podem interpretar e navegar pelo conteúdo de forma mais eficiente.</li>
+                        <li><strong>SEO (Search Engine Optimization):</strong> Motores de busca entendem melhor a estrutura e o conteúdo da sua página, o que pode impactar positivamente o rankeamento e a indexação.</li>
+                        <li><strong>Manutenibilidade e Legibilidade:</strong> O código se torna mais limpo, autoexplicativo e fácil de manter por qualquer desenvolvedor, otimizando o trabalho em equipe e a evolução do projeto.</li>
+                        <li><strong>Consistência:</strong> Ajuda a padronizar a estrutura do código em grandes projetos.</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <strong>Principais Tags Semânticas (Aprofundamento na Aplicação): </strong>
+
+                    <ul>
+                        <li>
+                            <code>&lt;header&gt;</code>: Introdução ou um grupo de elementos de navegação para uma seção ou documento.
+                        </li>
+                        <li>
+                            <code>&lt;nav&gt;</code>: Seção contendo links de navegação principais (menu).
+                        </li>
+                        <li>
+                            <code>&lt;main&gt;</code>: Representa o conteúdo principal e exclusivo do <code>&lt;body&gt;</code> de um documento.
+                        </li>
+                        <li>
+                            <code>&lt;article&gt;</code>: Conteúdo independente e autocontido (ex: uma postagem de blog, um artigo de notícia), que poderia ser distribuído separadamente.
+                        </li>
+                        <li>
+                            <code>&lt;section&gt;</code>: Agrupamento temático de conteúdo, geralmente com um título. Deve ser usado quando <code>&lt;div&gt;</code> não é semanticamente apropriado.
+                        </li>
+                        <li>
+                            <code>&lt;aside&gt;</code>: Conteúdo relacionado, mas conceitualmente separado do conteúdo principal (ex: barras laterais, publicidade, citações).
+                        </li>
+                        <li>
+                            <code>&lt;footer&gt;</code>: Informações de rodapé para seu elemento pai mais próximo (copyright, links de contato, navegação secundária).
+                        </li>
+                        <li>
+                            <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>: Para agrupar conteúdo multimídia (imagens, vídeos, diagramas) com sua legenda.
+                        </li>
+                        <li>
+                            <code>&lt;time&gt;</code>: Para representar data e/ou hora em um formato legível por máquina, melhorando a acessibilidade e o SEO.
+                        </li>
+                    </ul>
+                
+                </li>
+            </ul>
+
+
+            <aside>
+                <strong>Minha Percepção: </strong>Aprofundar-me no HTML Semântico consolidou minha visão de que a escolha da tag certa vai muito além da simples marcação visual. É um pilar fundamental para a acessibilidade digital, otimização para motores de busca (SEO) e, crucialmente, para a manutenibilidade e escalabilidade do código em projetos complexos. Entender o significado intrínseco de cada elemento é essencial para construir aplicações web robustas e performáticas, que não apenas funcionam, mas são semanticamente corretas e facilmente compreendidas por browsers e outras ferramentas.
+            </aside>
+        </section>
 
     </main>
     
+    <footer>
+        <hr><hr>
+        
+        <p>Referências e Fontes de Conhecimento:</p>
+
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                    <img src="https://th.bing.com/th/id/ODLS.f1c9fc9c-8feb-40a0-8863-5442c0c24716?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt="imagem do logo Mozilla" title="Mozilla">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">
+                    <img src="https://th.bing.com/th/id/ODLS.254e8f06-6637-423a-a001-71487c750ef4?w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2" alt="imagem do logo w3schools" title="w3schools">
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://th.bing.com/th/id/ODLS.a98ba153-f544-4921-a892-e4bcfda27feb?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2" alt="imagem do logo caniuse" title="caniuse">
+                </a>
+            </li>
+        </ul>
+        
+        <p>Conecte-se comigo: 
+            <a href="https://github.com/brunotxrs/" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/brunotxrs/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </p>
+
+        <p>&copy; 2025 Meu Blog de Aprendizado HTML. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

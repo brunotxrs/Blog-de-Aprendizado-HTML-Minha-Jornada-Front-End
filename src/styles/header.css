@@ -1,14 +1,13 @@
 header {
     max-height: 9.0625rem;
-    width: 100vw;
-    margin-bottom: 0.3125rem;
+    width: 100%;
 
     .blog {
         text-align: center;
         font-family: var(--font-blog);
         letter-spacing: 0.125rem;
         padding: 0.5rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         line-height: 120%;
     }
 
@@ -18,11 +17,10 @@ header {
     header {
         
         max-height: 9.0625rem;
-        width: 100vw;
-        margin-bottom: 0.3125rem;
+        width: 100%;
 
         .blog {
-            max-width:  43.75rem;
+            max-width:  33.75rem;
             text-align: center;
             font-family: var(--font-blog);
             letter-spacing: 0.125rem;
@@ -33,15 +31,15 @@ header {
     }
 }
 
-@media screen and (min-width: 64.125rem) {
+@media screen and (min-width: 64.0625rem) {
     header {
         
         max-height: 9.0625rem;
-        width: 100vw;
-        margin-bottom: 0.3125rem;
+        width: 100%;
+
 
         .blog {
-            max-width:  43.75rem;
+            max-width:  33.75rem;
             text-align: center;
             font-family: var(--font-blog);
             letter-spacing: 0.125rem;

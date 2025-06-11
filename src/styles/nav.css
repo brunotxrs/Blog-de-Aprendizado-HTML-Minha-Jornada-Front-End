@@ -73,7 +73,7 @@ nav {
         max-height: 25rem;
 
         ul {
-            max-width: 77.1875rem;
+            max-width: 62rem;
             display: grid;
             grid-template-columns: 2fr 2fr 2fr;
             grid-template-rows: 1fr 1fr;

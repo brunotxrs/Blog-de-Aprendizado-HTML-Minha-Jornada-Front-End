@@ -36,7 +36,7 @@ Além da estrutura HTML, utilizei minhas habilidades em **CSS** para estilizar o
 
 ## ✨ Como Acessar o Blog
 
-Você pode conferir o blog diretamente clicando [AQUI](https://www.google.com/search?q=LINK_PARA_SEU_BLOG).
+Você pode conferir o blog diretamente clicando [AQUI](https://brunotxrs.github.io/Blog-de-Aprendizado-HTML-Minha-Jornada-Front-End/).
 
 
 Para visualizar o projeto localmente:
